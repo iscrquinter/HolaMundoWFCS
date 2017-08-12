@@ -21,5 +21,10 @@ namespace HolaMundoWF
         {
             msg.Text = "Hola Mundo!";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            msgMX.Text = "Hola México!";
+        }
     }
 }
