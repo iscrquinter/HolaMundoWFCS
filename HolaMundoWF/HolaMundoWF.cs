@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HolaMundoWF
 {
-    public partial class Form1 : Form
+    public partial class HolaMundoWF : Form
     {
-        public Form1()
+        public HolaMundoWF()
         {
             InitializeComponent();
         }
