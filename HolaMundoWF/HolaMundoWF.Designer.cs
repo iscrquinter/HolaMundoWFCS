@@ -28,20 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.msg = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // msg
+            // 
+            this.msg.AutoSize = true;
+            this.msg.Location = new System.Drawing.Point(118, 99);
+            this.msg.Name = "msg";
+            this.msg.Size = new System.Drawing.Size(0, 13);
+            this.msg.TabIndex = 0;
             // 
             // HolaMundoWF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.msg);
             this.Name = "HolaMundoWF";
             this.Text = "HolaMundo!";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label msg;
     }
 }
 
